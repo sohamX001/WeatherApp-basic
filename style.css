@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Ysabeau+Infant&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+body{
+    background: #222;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    height: 80vh;
+    width: 30vw;
+    background-color: rgba(61, 83, 90, 0.465);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.search input{
+    border: none;
+    outline: none;
+    overflow: hidden;
+    width: 70%;
+    padding: 15px;
+    background: #6b757579;
+    border-radius: 30px;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.search button{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 50%;
+    margin-left: 5px;
+    align-items: center;
+    padding: 9px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 20px;
+}
+
+.weather{
+    color: aliceblue;
+}
+.w-icon{
+    /* width: 120px; */
+    width: 40%;
+    margin-top: 20px;
+}
+
+.weather h1{
+    font-size: 50px;
+}
+
+.weather h2{
+    font-size: 20px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 0 10px;
+    
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.humidity, .wind{
+    font-size: 25px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    margin-top: 45%;
+    color: #fff;
+    font-size: 20px;
+    display: none;
+}
